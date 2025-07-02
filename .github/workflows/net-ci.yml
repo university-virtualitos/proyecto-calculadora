@@ -1,0 +1,11 @@
+name: CI test
+
+on:
+  push:
+
+jobs:
+  ci:
+    uses: university-virtualitos/uv-reusable-workflows/.github/workflows/net-ci.yml@main
+    with:
+      project-path: calculadora.csproj
+      run-app: "false"
