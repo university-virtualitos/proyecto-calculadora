@@ -5,6 +5,7 @@ Console.WriteLine($"5 - 2 = {c.Restar(5, 2)}");
 Console.WriteLine($"4 * 3 = {c.Multiplicar(4, 3)}");
 Console.WriteLine($"6 / 3 = {c.Dividir(6, 3)}");
 
+
 public class Calculadora
 {
     public double Sumar(double a, double b) => a + b;
